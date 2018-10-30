@@ -1,0 +1,97 @@
+body {
+  color: #2d3c49; 
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#logo {
+  width: 20%;
+}
+
+#intro {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 9px;
+}
+
+#name {
+  font: bold 30px Georgia,serif; 
+  margin: 0;
+  margin-left: auto;
+}
+
+#title {
+  font-size: 15px;
+  margin: 0;
+  margin-left: auto;
+}
+
+hr {
+  color: #02b3e4;
+}
+
+
+#welcome {
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#welcome img {
+    width: 100%;
+    max-width: 800px;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: bold 18px sans-serif;
+}
+
+#work {
+  text-align: center;
+  font: bold 20px Tahoma;
+  margin-bottom: -6px;
+}
+
+
+#project {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.sample {
+   border: 1px solid #ccc;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+.sample:hover {
+   border: 1px solid #777;
+}
+
+.desc {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
